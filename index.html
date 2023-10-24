@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney Plus - Massão Mal Assombrada.</title>
+    <link rel="stylesheet" href="./dist/css/main.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/play-button.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/home.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-right-o.css' rel='stylesheet'>
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <div data-tab-id="esmaecer" class="esmaecer "></div>
+
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+            </h1>
+            <p data-tab-button="header-background" class="background hidden"></p>
+    </header>
+
+    <section class="ponto"></section>
+
+    <section class="hero ">
+        <div class="hero__title">
+            <h1>
+                <img id="title" src="./dist/images/titulo_mansaoMalAssombrada.png" alt="titulo do filme">
+            </h1>
+        </div>
+        <div class="hero__container">
+            <div class="hero__container__img">
+                <img src="./dist/images/idade12.png" alt="classificação">
+                <img src="./dist/images/AD.png" alt="AD">
+                <img src="./dist/images/cc.png" alt="CC">
+                <span style="vertical-align: top;">2023 • 2h 4min</span>
+            </div>
+            <div>
+                Terror, Família, Comédia, Fantasia, Ação e aventura
+            </div>
+            <div class="hero__container__button">
+                <button class="hero__container__button__play">
+                    <p class="gg-play-button"></p>
+                    <p>Assistir</p>
+                </button>
+                <button class="hero__container__button__trailer">
+                    <p>Trailer</p>
+                </button>
+                <span class="hero__container__button__mais">
+                    <span class="material-symbols-outlined">
+                        add
+                        </span>
+                </span>
+            </div>
+            <div class="hero__desc">
+                <p>
+                    Nesta aventura assustadoramente divertida, inspirada na clássica
+                    atração de parque Magic <br>Kingdom, uma mulher e seu filho recrutam
+                    uma equipe bem incomum de "especialistas" <br>espirituais para ajudar
+                    a exorcizar os invasores sobrenaturais de sua casa.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="sugestoes" class="shows__tabs__button shows__tabs__button--is-active">
+                Sugestões
+            </button>
+            <button data-tab-button="extra" class="shows__tabs__button">
+                Extras
+            </button>
+            <button data-tab-button="detalhes" class="shows__tabs__button">
+                Detalhes
+            </button>
+        </nav>
+        <div class="shows__nav">
+            <button id="btn-prev" class="shows__nav__btn-prev arrow-left control">
+                <span class="material-symbols-outlined">
+                    arrow_back_ios
+                    </span>
+            </button>
+            <button id="btn-next" class="shows__nav__btn-next arrow-right control">
+                <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                    </span>
+            </button>
+        </div>
+        <ul data-tab-id="sugestoes" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/goosebumps.png" alt="Spidey">
+            </li>
+            <li class="shows__list__item items current-items">
+                <img src="./dist/images/MansaoMalAssombrada.png" alt="Spidey">
+            </li>
+            <li class="shows__list__item items">
+                <img src="./dist/images/porTrasDaDiversao.png" alt="Spidey">
+            </li>
+            <li class="shows__list__item items">
+                <img src="./dist/images/HauntedMansion.png" alt="Spidey">
+            </li>
+            <li class="shows__list__item items">
+                <img src="./dist/images/hM_swingingWake.png" alt="Spidey">
+            </li>
+            <li class="shows__list__item items">
+                <img src="./dist/images/muppets.png" alt="Spidey">
+            </li>
+            <li class="shows__list__item items">
+                <img src="./dist/images/piratasDoCaribe.png" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/aPequenaSereia.png" alt="Spidey">
+            </li>
+        </ul>
+        <ul data-tab-id="extra" class="shows__list ">
+            <li class="shows__list__item">
+                <img src="./dist/images/mansaoMalAssombrada_extra.jpg" alt="Obi Wan">
+            </li>
+        </ul>
+        <ul data-tab-id="detalhes" class="shows__list shows__list__detalhes detalhes">
+            <div id="title" class="fonttitulo shows__list__detalhes__title">
+                <h1>Mansão Mal-Assombrada</h1>
+            </div>
+            <div id="content1" class="fontPrincipal shows__list__detalhes__content1">
+                <p>
+                    Nesta aventura assustadoramente divertida inspirada na
+                    clássica atração do parque Magic Kingdom, uma médica e
+                    seu filho de nove anos, em busca de uma nova vida, mudam-se
+                    para uma mansão estranhamente barata em Nova Orleans, mas
+                    acabam descobrindo que o lugar é muito mais do que eles
+                    esperavam. Desesperados por ajuda, eles recrutam uma equipe
+                    bem incomum de "especialistas" espirituais para ajudar a
+                    exorcizar os invasores sobrenaturais da casa, incluindo um
+                    padre, um cientista viúvo que se tornou um especialista
+                    paranormal fracassado, uma médium e um professor excêntrico.
+                </p>
+                <p>Contém sequências de luzes que podem afetar pessoas fotossensíveis.</p>
+            </div>
+            </div>
+            <div id="genero" class="shows__list__detalhes__genero fontSecundaria">
+                <div class="shows__list__detalhes__genero--subgenero">
+                    <p>Duração:</p>
+                    <p>2h 4min</p>
+                </div>
+                <div class="shows__list__detalhes__genero--subgenero">
+                    <p>Data de lançamento:</p>
+                    <p>2023</p>
+                </div>
+                <div class="shows__list__detalhes__genero--subgenero">
+                    <p>Gênero:</p>
+                    <p>Terror, Familia, Comédia, Fantasia, Ação e aventura</p>
+                </div>
+                <div class="shows__list__detalhes__genero--subgenero">
+                    <p>Classificação:</p>
+                    <img src="./dist/images/idade12.png" alt="classificação">
+                    <p>Medo</p>
+                    <p>Violência</p>
+                    <p>Drogas Lícitas</p>
+                </div>
+            </div>
+            <div id="elenco" class="shows__list__detalhes__elenco fontSecundaria">
+                <div class="shows__list__detalhes__elenco--subelenco">
+                    <p>Direção:</p>
+                    <p>Justin Simien</p>
+                </div>
+                <div class="shows__list__detalhes__elenco--subelenco">
+                    <p>Elenco:</p>
+                    <p>LaKeith Stanfield</p>
+                    <p>Tiffany Haddish</p>
+                    <p>Owen Wilson</p>
+                    <p>Danny DeVito</p>
+                    <p>Rosario Dawson</p>
+                    <p>Chase W. Dillon</p>
+                </div>
+            </div>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+            <ul class="footer__links">
+                <button class="footer__links__item">
+                    <a href="" class="text--small">Política de privacidade</a>
+                </button>
+                <button class="footer__links__item">
+                    <a href="#" class="text--small">Contrato de Assinatura</a>
+                </button>
+                <button class="footer__links__item">
+                    <a href="#" class="text--small">Ajuda</a>
+                </button>
+                <button class="footer__links__item">
+                    <a href="" class="text--small">Dispositivos compatíveis</a>
+                </button>
+                <button class="footer__links__item">
+                    <a href="#" class="text--small">Sobre o Disney+</a>
+                </button>
+                <button class="footer__links__item">
+                    <a href="" class="text--small">Anúncios personalizados</a>
+                </button>
+            </ul>
+            <p class="text--small">
+                Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é
+                comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas,
+                12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+            </p>
+            <p style="padding: 8px 0 24px;" class="text--small">
+                ® Disney. Todos os direitos reservados
+            </p>
+        </div>
+    </footer>
+
+</body>
+<script src="./src/main.js"></script>
+
+</html>

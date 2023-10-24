@@ -1,0 +1,72 @@
+@use 'variaveis';
+
+.footer {
+    padding: 26px 75px;
+    position: relative;
+    background-color: variaveis.$corDeFundo;
+    color: variaveis.$corTextoSecundario;
+    max-width: 1920px;
+    font-size: 12px;
+    margin-top: 120px;
+
+    @media (max-width: 768px) {
+        max-width: 100%;
+        padding: 26px 35px;
+    }
+
+    &__container {
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__logo {
+        width: 80px;
+        margin: 0 auto 10px;
+    }
+
+    &__links {
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 500px;
+        margin: 0 auto;
+        border: none;
+
+        @media (max-width: 768px) {
+            max-width: 300px;
+        }
+
+        &__item {
+            display: inline-block;
+            background-color: transparent;
+            margin: 11px 5px 10px;
+            border: none;
+
+            a {
+                text-decoration: none;
+
+                display: block;
+
+                color: variaveis.$corTextoSecundario;
+
+
+                &:hover {
+                }
+            }
+        }
+    }
+
+    p {
+        margin-bottom: 16px;
+        color: variaveis.$corTextoSecundario;
+        max-width: 500px;
+        margin: 0 auto;
+
+        @media (max-width: 768px) {
+            max-width: 300px;
+        }
+    }
+}
