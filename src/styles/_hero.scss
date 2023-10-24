@@ -3,17 +3,16 @@
 @mixin button {
     color: #0e0b14;
     align-items: center;
+    width: 134px;
     height: 56px;
     justify-content: center;
     position: relative;
-    width: auto;
     background-color: variaveis.$corTextoSecundario;
     border-radius: 8px;
     margin: 4px 12px 4px 0;
     display: flex;
     border: none;
     margin-left: 0;
-    overflow: hidden;
 }
 
 @mixin button-text {
@@ -69,8 +68,8 @@
 
 
             &__play {
-                padding: 0 24px;
                 @include button();
+                padding: 0 24px;
                 cursor: pointer;
 
                 p {
@@ -96,8 +95,11 @@
             }
 
             &__mais {
-                @include button();
-                padding: 1px 12px;
+                padding: 12px;
+                margin: 8px 0;
+                display: flex;
+                border: none;
+                margin-left: 0;
                 border: 2px;
                 margin-left: 8px;
                 background-color: #00000099;
