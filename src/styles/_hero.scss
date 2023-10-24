@@ -26,12 +26,18 @@
     padding: 0 75px;
 
     @media (max-width: 768px) {
-        padding: 35px;
+        padding: 0 35px;
     }
 
 
     &__title {
         padding: 56px 0 16px;
+        
+
+        @media (max-width: 768px) {
+            padding: 0;
+            padding-top: 80p;
+        }
 
         img { //titulo
             display: flexbox;
@@ -45,6 +51,7 @@
 
             @media (max-width: 768px) {
                 max-width: 131px;
+                max-height: 73px;
             }
         }
     }
